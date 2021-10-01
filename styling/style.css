@@ -9,12 +9,13 @@ nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(12, 33, 43);
+    background-color: rgb(112, 112, 112);
     text-align: center;
     position: fixed;
     top: 0%;
     left: 0%;
     right: 0%;
+    opacity: 80%;
     
     
 }
@@ -47,18 +48,15 @@ h1 {
     text-align: center;
 }
 h2 {
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
-.name {
-    margin-top: 130px;
-}
 
 .box {
 
     text-align: center;
     padding: 1px;
-    border: 2px solid;
+    border: 6px ridge rgb(151, 14, 14) ;
     margin-left: 450px;
     margin-right: 450px;
 
@@ -69,4 +67,8 @@ h2 {
     padding: 2px;
 
     box-shadow: darkred;
+}
+
+.in {
+    font-display: roboto;
 }
