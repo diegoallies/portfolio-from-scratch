@@ -27,18 +27,19 @@ a {
     float: initial;
 }
 /* The :hover selector is used to select elements when you mouse over them. */
-li a:hover {
+a:hover {
     /*  */
     background-color: #666;
 }
 
-li a .active {
+a .active {
     /*  */
     background-color: #111;
 }
 
 h1 {
     color: whitesmoke;
+    margin-top: 65px;
 }
 
 .contacth {
@@ -57,4 +58,11 @@ h2 {
 
     text-align: center;
 
+}
+
+.button1 {
+    margin: 2px;
+    padding: 2px;
+    
+    box-shadow: darkred;
 }
