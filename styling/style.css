@@ -3,42 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
-ul {
+nav {
 
     list-style-type: none;
-    
     margin: 0;
-    
     padding: 0;
-    
     overflow: hidden;
-    
     background-color: rgb(12, 33, 43);
-
-    float: unset;
-
-    margin-left: 500px;
-
-    margin-right: 522px;
-}
-li {
-    float: left;
-}
-li a {
-    /* The display property specifies the display behavior (the type of rendering box) of an element. */
-    display: block;
-    
-    /*  */
-    color: white;
-    
-    /* The text-align property specifies the horizontal alignment of text in an element. */
     text-align: center;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
     
-    /* The CSS padding properties are used to generate space around an element's content, inside of any defined borders. */
+    
+}
+a { 
+    display: inline-block;
+    color: white;
+    text-align: center;
     padding: 14px 16px;
-    
-    /* The text-decoration property specifies the decoration added to text */
     text-decoration: none;
+    float: initial;
 }
 /* The :hover selector is used to select elements when you mouse over them. */
 li a:hover {
@@ -68,8 +54,7 @@ h2 {
 }
 
 .box {
-    margin-top: 55px;
-    margin-left: 55px;
-    text-align: center;
-}
 
+    text-align: center;
+
+}
