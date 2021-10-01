@@ -33,7 +33,7 @@ a:hover {
 }
 
 a .active {
-    /*  */
+    color: darkred;
     background-color: #111;
 }
 
@@ -57,12 +57,16 @@ h2 {
 .box {
 
     text-align: center;
+    padding: 1px;
+    border: 2px solid;
+    margin-left: 450px;
+    margin-right: 450px;
 
 }
 
 .button1 {
     margin: 2px;
     padding: 2px;
-    
+
     box-shadow: darkred;
 }
