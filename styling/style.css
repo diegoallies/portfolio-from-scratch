@@ -49,10 +49,11 @@ a {
 a:hover {
     /*  */
     background-color: rgb(92, 92, 92);
+    color: rgb(151, 14, 14);
 }
 
 a .active {
-    color: darkred;
+    color: red;
     background-color: #111;
 }
 
@@ -95,11 +96,22 @@ h2 strong{
     color: rgb(255, 255, 255);
     text-align: center;
 }
-p {
 
+#d {
+    font-family: -apple-system;
 }
 
+input:focus {
+    color: darkred;
+  }
 
+input {
+    color: black;
+}
+
+::placeholder {
+    color: cyan;
+}
 
 footer {
     left: 0;
