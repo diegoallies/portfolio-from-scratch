@@ -1,6 +1,16 @@
-/* Coded by Diego Allies
+/*///////////////////////////////////////////////////////////////////////////
+Coded by Diego Allies
 Table of contents:
-*/
+
+12    -    Home text
+41    -    Navigation Bar
+76    -    Heading Styling
+102   -    Box Styling
+117   -    Button Styling
+150   -    Input Box Styling
+164   -    Footer Styling
+
+///////////////////////////////////////////////////////////////////////////*/
 
 * {
     margin:0;
@@ -55,6 +65,7 @@ nav {
     text-shadow: 0 0.04em 0.04em black;
     
 }
+
 a { 
     display: inline-block;
     color: white;
@@ -63,6 +74,7 @@ a {
     text-decoration: none;
     float: initial;
 }
+
 a:hover {
     /*  */
     background-color: rgb(92, 92, 92);
@@ -109,7 +121,7 @@ h2 strong{
 }
 
 /*///////////////////////////////////////////////////////////////////////////
-/////////////////////// Button styling //////////////////////////////////////
+/////////////////////// Button Styling //////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////*/
 
 
@@ -128,6 +140,7 @@ h2 strong{
     text-align:center;
     transition: all 0.15s;
 }
+
 .button1:hover{
     text-shadow: 0 0 2em grey;
     color: darkred;
@@ -166,6 +179,7 @@ footer {
     position: fixed;
     opacity: 90%;
 }
+
 .container {
     margin: 0;
     padding: 2px 0px;
