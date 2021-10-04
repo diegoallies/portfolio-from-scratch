@@ -35,7 +35,7 @@ nav {
     left: 0%;
     right: 0%;
     opacity: 90%;
-    
+    text-shadow: 0 0.04em 0.04em black;
     
 }
 a { 
@@ -56,6 +56,7 @@ a:hover {
 h1 {
     color: whitesmoke;
     margin-top: 65px;
+    text-shadow: 0 0.04em 0.04em black;
 }
 
 .active {
