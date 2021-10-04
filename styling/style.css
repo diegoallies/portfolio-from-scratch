@@ -105,13 +105,10 @@ input:focus {
     color: darkred;
   }
 
-input {
-    color: black;
+input::placeholder {
+    color:black;
 }
 
-::placeholder {
-    color: black;
-}
 
 footer {
     left: 0;
@@ -122,19 +119,18 @@ footer {
     position: fixed;
     opacity: 90%;
 }
-.copyright {
+.container {
     margin: 0;
     padding: 2px 0px;
     text-align: center;
 }
-.designed {
-    margin: 0;
-    padding: 2px 0px;
-    text-align: right;
+
 }
-.designed a:hover {
+.container a:hover {
     color:rgb(151, 14, 14);
+
 }
+
 
 .mydetails {
     color: whitesmoke;
