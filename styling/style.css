@@ -52,10 +52,6 @@ a:hover {
     color: rgb(151, 14, 14);
 }
 
-a .active {
-    color: red;
-    background-color: #111;
-}
 
 h1 {
     color: whitesmoke;
@@ -101,7 +97,7 @@ h2 strong{
     font-family: -apple-system;
 }
 
-input:focus {
+input:focus, .container a:hover {
     color: darkred;
   }
 
@@ -125,11 +121,6 @@ footer {
     text-align: center;
 }
 
-}
-.container a:hover {
-    color:rgb(151, 14, 14);
-
-}
 
 
 .mydetails {
