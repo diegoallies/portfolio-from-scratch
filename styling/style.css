@@ -1,8 +1,34 @@
+/*///////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////
+///////////////////////                                    \\\\\\\\\\\\\\\\\\
+///////////////////////   Coded by Diego Allies            \\\\\\\\\\\\\\\\\\
+///////////////////////   Table of contents:               \\\\\\\\\\\\\\\\\\
+///////////////////////                                    \\\\\\\\\\\\\\\\\\
+///////////////////////   19    -    Universal Styling     \\\\\\\\\\\\\\\\\\
+///////////////////////   25    -    Home text             \\\\\\\\\\\\\\\\\\
+///////////////////////   41    -    Navigation Bar        \\\\\\\\\\\\\\\\\\
+///////////////////////   76    -    Heading Styling       \\\\\\\\\\\\\\\\\\
+///////////////////////   102   -    Box Styling           \\\\\\\\\\\\\\\\\\
+///////////////////////   117   -    Button Styling        \\\\\\\\\\\\\\\\\\
+///////////////////////   150   -    Input Box Styling     \\\\\\\\\\\\\\\\\\
+///////////////////////   174   -    Footer Styling        \\\\\\\\\\\\\\\\\\
+///////////////////////                                    \\\\\\\\\\\\\\\\\\
+/////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////*/
+
+/*///////////////////////////////////////////////////////////////////////////
+/////////////////////// Universal Styling  //////////////////////////////////
+///////////////////////////////////////////////////////////////////////////*/
+
 * {
     margin:0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/*///////////////////////////////////////////////////////////////////////////
+/////////////////////// Home Text ///////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////*/
 
 .home-text {
     background-color: rgba(0, 0, 0, 0.623);
@@ -20,7 +46,19 @@
     height: 300px;
     margin-top: 0px;
     font-size: 20px;
+    border-radius: 25px;
+    -webkit-box-shadow: -6px 14px 14px 5px rgba(0,0,0,0.85); 
+    box-shadow: -6px 14px 14px 5px rgba(0,0,0,0.85);
 }
+
+.mydetails {
+    color: whitesmoke;
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////
+/////////////////////// Navigation Bar //////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////*/
 
 nav {
     font-family: bold;
@@ -35,9 +73,11 @@ nav {
     left: 0%;
     right: 0%;
     opacity: 90%;
+    text-shadow: 0 0.04em 0.04em black;
     
     
 }
+
 a { 
     display: inline-block;
     color: white;
@@ -45,30 +85,44 @@ a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 a:hover {
     /*  */
     background-color: rgb(92, 92, 92);
     color: rgb(151, 14, 14);
 }
 
-a .active {
-    color: red;
-    background-color: #111;
+/*///////////////////////////////////////////////////////////////////////////
+/////////////////////// Heading Styling /////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////*/
+
+#h1-ind {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
     color: whitesmoke;
     margin-top: 65px;
+    text-shadow: 0 0.04em 0.04em black;
 }
 
 .active {
     color: rgb(151, 14, 14);
     text-align: center;
 }
+
 h2 strong{
     margin-top: 20px;
 }
 
+.homep {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/*///////////////////////////////////////////////////////////////////////////
+/////////////////////// Box Styling /////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////*/
 
 .box {
 
@@ -77,40 +131,68 @@ h2 strong{
     border: 6px ridge rgb(151, 14, 14) ;
     margin-left: 450px;
     margin-right: 450px;
+    -webkit-box-shadow: -6px 14px 14px 5px rgba(0,0,0,0.85); 
+    box-shadow: -6px 14px 14px 5px rgba(0,0,0,0.85);
+    
+    
 
 }
 
-.button1 {
-    margin: 2px;
-    padding: 2px;
 
-    box-shadow: darkred;
+
+/*///////////////////////////////////////////////////////////////////////////
+/////////////////////// Button Styling //////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////*/
+
+
+.button1{
+    display:inline-block;
+    padding:0.46em 1.6em;
+    border:0.1em solid #000000;
+    margin:0 0.2em 0.2em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#000000;
+    text-shadow: 0 0.04em 0.04em grey;
+    text-align:center;
+    transition: all 0.15s;
+    background-color: rgba(255, 0, 0, 0.205);
+    border-radius: 50px;
+    
 }
 
-.in {
-    font-display: roboto;
+.button1:hover{
+    text-shadow: 0 0 2em grey;
+    color: whitesmoke;
+    border-color: black;
+    background-color: darkred;
 }
 
-.homep {
-    color: rgb(255, 255, 255);
-    text-align: center;
+@media all and (max-width:30em){
+    a.button1{
+    display:block;
+    margin:0.4em auto;
 }
+    }
 
-#d {
-    font-family: -apple-system;
-}
+/*///////////////////////////////////////////////////////////////////////////
+/////////////////////// Input box styling ///////////////////////////////////
+///////////////////////////////////////////////////////////////////////////*/
 
-input:focus {
+input:focus, .container a:hover {
     color: darkred;
   }
 
-input {
-    color: black;
+input::placeholder {
+    color:black;
 }
 
-::placeholder {
-    color: black;
-}
+/*///////////////////////////////////////////////////////////////////////////
+/////////////////////// Footer Styling //////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////*/
 
 footer {
     left: 0;
@@ -121,20 +203,9 @@ footer {
     position: fixed;
     opacity: 90%;
 }
-.copyright {
+
+.container {
     margin: 0;
     padding: 2px 0px;
     text-align: center;
-}
-.designed {
-    margin: 0;
-    padding: 2px 0px;
-    text-align: right;
-}
-.designed a:hover {
-    color:rgb(151, 14, 14);
-}
-
-.mydetails {
-    color: whitesmoke;
 }
