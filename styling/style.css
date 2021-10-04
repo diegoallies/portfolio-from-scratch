@@ -93,6 +93,9 @@ a:hover {
 /////////////////////// Heading Styling /////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////*/
 
+#h1-ind {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 h1 {
     color: whitesmoke;
@@ -169,6 +172,7 @@ h2 strong{
 
 input:focus, .container a:hover {
     color: darkred;
+    border-color: blue;
   }
 
 input::placeholder {
