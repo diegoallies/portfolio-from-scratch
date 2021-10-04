@@ -46,6 +46,9 @@
     height: 300px;
     margin-top: 0px;
     font-size: 20px;
+    border-radius: 25px;
+    -webkit-box-shadow: -6px 14px 14px 5px rgba(0,0,0,0.85); 
+    box-shadow: -6px 14px 14px 5px rgba(0,0,0,0.85);
 }
 
 .mydetails {
@@ -71,6 +74,7 @@ nav {
     right: 0%;
     opacity: 90%;
     text-shadow: 0 0.04em 0.04em black;
+    
     
 }
 
@@ -128,8 +132,14 @@ h2 strong{
     border: 6px ridge rgb(151, 14, 14) ;
     margin-left: 450px;
     margin-right: 450px;
+    -webkit-box-shadow: -6px 14px 14px 5px rgba(0,0,0,0.85); 
+    box-shadow: -6px 14px 14px 5px rgba(0,0,0,0.85);
+    
+    
 
 }
+
+
 
 /*///////////////////////////////////////////////////////////////////////////
 /////////////////////// Button Styling //////////////////////////////////////
@@ -151,12 +161,15 @@ h2 strong{
     text-align:center;
     transition: all 0.15s;
     background-color: rgba(255, 0, 0, 0.205);
+    border-radius: 50px;
+    
 }
 
 .button1:hover{
     text-shadow: 0 0 2em grey;
-    color: darkred;
-    border-color: darkred;
+    color: whitesmoke;
+    border-color: black;
+    background-color: darkred;
 }
 
 @media all and (max-width:30em){
@@ -172,7 +185,6 @@ h2 strong{
 
 input:focus, .container a:hover {
     color: darkred;
-    border-color: blue;
   }
 
 input::placeholder {
