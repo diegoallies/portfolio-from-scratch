@@ -436,8 +436,8 @@ footer {
     }
 
     .testp {
-        position: absolute;
-        margin-bottom: -228%;
+        position: relative;
+        
     }
 }
 
