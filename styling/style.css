@@ -431,6 +431,7 @@ footer {
         width: 84%;
         gap: 40px;
         margin-left: 8%;
+        margin-right: 8%;
         
 
 
@@ -494,12 +495,11 @@ footer {
   .container2{
       display:flex;
       flex-wrap: wrap;
-
-      
+  
   }
 
   #main {
-      margin-bottom: 80px;
+      margin-bottom: 10%;
   }
   
   .fli {
