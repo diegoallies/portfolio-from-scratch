@@ -173,7 +173,6 @@ h2 strong{
 
 .theader {
     text-align: center;
-    margin-bottom: 10%;
     
 
 }
@@ -292,7 +291,7 @@ footer {
     }
 
     .testp {
-        margin-bottom: -29%;
+        margin-bottom: -29.7%;
     }
     
 }
@@ -441,6 +440,14 @@ footer {
         position: relative;
         
     }
+
+    .theader {
+        text-align: center;
+        margin-bottom: 10%;
+        
+    
+    }
+    
 }
 
 
