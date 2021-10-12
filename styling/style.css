@@ -261,9 +261,6 @@ footer {
     text-align: center;
 }
 
-.testp {
-    margin-bottom: -29%;
-}
 
 
 
@@ -292,6 +289,11 @@ footer {
         margin-right: 80px;
         
     }
+
+    .testp {
+        margin-bottom: -29%;
+    }
+    
 }
 
 
